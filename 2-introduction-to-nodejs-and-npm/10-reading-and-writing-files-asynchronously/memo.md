@@ -15,7 +15,7 @@
 
 - Because the second file to be read is **based on the result of the first file** to be read, the second fs.readFile must be in the callback function of the first fs.readFile.
 
-## **Append (Order Problem)**
+## **Append (ensure Order)**
 
 ![Alt append log from another txt ](pic/bandicam%202022-09-27%2002-34-43-721.jpg)
 
