@@ -2,10 +2,12 @@
 
 ![Alt http.createServer ](pic/bandicam%202022-09-27%2009-04-17-652.jpg)
 
-- The http.createServer argument is the callback function, and this function can access two very important variables:
-  - **req** It means the request sent from the client, which contains various information.
-  - **res** This variable is used to handle things that must be responded to the client, providing a bunch of tools for us to use.
-    - Of these, **end** is the simplest tool, and is used when responding to a plain string.
+- The http.createServer argument is the callback function.
+  - This function can access two very important variables:
+    - **req** It means the request sent from the client, which contains various information.
+    - **res** This variable is used to handle things that must be responded to the client, providing a bunch of tools for us to use.
+      - Of these, **end** is the simplest tool, and is used when responding to a plain string.
+  - The content of this callback function is what will be executed when the request is received.
 
 ![Alt server.listen ](pic/bandicam%202022-09-27%2009-06-39-350.jpg)
 
