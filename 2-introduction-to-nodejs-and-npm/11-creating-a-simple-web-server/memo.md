@@ -13,6 +13,8 @@
 
 ![Alt node run server ](pic/bandicam%202022-09-27%2009-08-27-377.jpg)
 
+- The server must wait for the request continuously, so it can't exit after executing all the instructions like a normal application.
+
 ![Alt send request from the browser ](pic/bandicam%202022-09-27%2009-08-50-533.jpg)
 
 ![Alt observe request ](pic/bandicam%202022-09-27%2009-10-07-917.jpg)
