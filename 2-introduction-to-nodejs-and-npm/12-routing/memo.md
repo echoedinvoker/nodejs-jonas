@@ -65,7 +65,7 @@
 ![Alt write header ](pic/bandicam%202022-09-27%2017-27-36-667.jpg)
 
 - **res.writeHead**, as the name suggests, can also define header of the response, which is like the metadata for the response.
-- header must be defined before response.
+- **res.writeHeader** must be executed before **res.end**.
 
 ![Alt html front on browser ](pic/bandicam%202022-09-27%2017-28-40-842.jpg)
 
