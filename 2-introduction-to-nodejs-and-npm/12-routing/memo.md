@@ -29,6 +29,7 @@
 
 - Determining what **action** should be performed if the **URL** is what, this is what **router** is all about.
   - The router can be made directly using a simple if else statement.
+  - In practice, routers can become very complex, in which case we use a tool like Express.
 
 ## **URL handled by Router**
 
@@ -42,11 +43,12 @@
 
 ![Alt wrong url on browser ](pic/bandicam%202022-09-27%2017-16-51-801.jpg)
 
-- Unlike the previous situation where there was no any router, now we enter an incorrect URL that causes the browser to keep loading forever...
+- Since the URL does not match any router, **no res.end will be executed**, which will result in endless loading of the broswer on the client side.
 
 ![Alt else router ](pic/bandicam%202022-09-27%2017-17-57-811.jpg)
 
 - We use the last else in the if-statement to handle the incorrect URL.
+  - The point is to get every URL result to run **res.end** to avoid endless loading in client browser.
 
 ![Alt else url on browser ](pic/bandicam%202022-09-27%2017-18-49-935.jpg)
 
@@ -76,3 +78,17 @@
 ![Alt folder and router ](pic/bandicam%202022-09-27%2017-31-35-426.jpg)
 
 - Both have / begin with, but in fact there is no any relation.
+
+## **Use Build-In Module url to parse comlex URL**
+
+![alt](pic/bandicam%202022-09-28%2002-09-20-438.jpg)
+
+- Sometimes we use more complex URLs like the one above.
+
+![alt](pic/bandicam%202022-09-28%2002-10-06-845.jpg)
+
+- But if we just use **res.url**, we still get a usual string.
+
+![alt](pic/bandicam%202022-09-28%2002-12-12-054.jpg)
+
+- We can use the build-in module **url** to parse it further.

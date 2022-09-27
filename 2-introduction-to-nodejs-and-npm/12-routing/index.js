@@ -1,17 +1,9 @@
 const http = require("http");
+const url = require("url");
 
 const server = http.createServer((req, res) => {
-  if (req.url === "/" || req.url === "/overview") {
-    res.end("This is OVERVIEW!");
-  } else if (req.url === "/product") {
-    res.end("This is PRODUCT!");
-  } else {
-    res.writeHead(404, {
-      "Content-type": "text/html",
-      "my-own-header": "Hello World",
-    });
-    res.end("<h1>Page not found!</h1>");
-  }
+  console.log(url.parse(req.url));
+  res.end("Hello from the server!");
 });
 
 server.listen(8000, "127.0.0.1", () => {
