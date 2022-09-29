@@ -1,5 +1,7 @@
 # **_Introduce WebPage(With Fixed Data)_**
 
+> A brief overview of how two html files look like in a web page.
+
 ![Alt overview.html](pic/bandicam%202022-09-29%2009-50-22-732.jpg)
 
 ![Alt overview page](pic/bandicam%202022-09-29%2009-50-32-779.jpg)
@@ -8,15 +10,26 @@
 
 ![Alt product page](pic/bandicam%202022-09-29%2009-51-14-987.jpg)
 
+- Currently the data in the web page is written dead, there is no dynamic part at all.
+
 # **_Replace Data with Placeholders in Product.html_**
 
 ![Alt product which data should be replace](pic/bandicam%202022-09-29%2009-53-19-613.jpg)
 
 ![Alt product json name and image](pic/bandicam%202022-09-29%2009-53-55-128.jpg)
 
+- As above, there are some parts of the web page that correspond to the data in the json file.
+
 ![Alt product html description](pic/bandicam%202022-09-29%2009-55-51-626.jpg)
 
 ![Alt use %placehold% to replace fixed data](pic/bandicam%202022-09-29%2017-02-29-269.jpg)
+
+- We use placeholders instead of these data.
+  - The placeholder simply indicates that the location should be a dynamic database or a file from which to write the data.
+    - At this stage, the placeholder itself does not have any function, but only a hint.
+      - The next lecture will replace these placeholders with code that actually works.
+
+## **Style PlaceHolder**
 
 ![Alt json organic boolean](pic/bandicam%202022-09-29%2017-02-49-593.jpg)
 
@@ -24,11 +37,13 @@
 
 ![Alt page organic](pic/bandicam%202022-09-29%2017-07-03-662.jpg)
 
+- In addition to the content part, even the style content can be replaced by the placeholder.
+
 # **_Split out Cards out of Overview.html_**
 
 ![Alt overview html cards](pic/bandicam%202022-09-29%2017-08-43-994.jpg)
 
-- You can see that there are five figure.cards in div.container in overview.html which are in the same format but with different data, so I can just seperate it in a separate html.
+- You can see that there are five figure.cards in div.container in overview.html which are in the same format but with different data, so I can just seperate it in a html.
 
 ![Alt create card template-card.html](pic/bandicam%202022-09-29%2017-10-56-584.jpg)
 
