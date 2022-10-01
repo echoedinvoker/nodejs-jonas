@@ -8,6 +8,8 @@
 
 ![Alt page not found](pic/bandicam%202022-10-02%2000-55-58-745.jpg)
 
+- In the previous lecture, we could not extract the product data we wanted from the data because we could not resolve the url, so we did not use real data instead of placeholders on the product page.
+
 # **_Analyze url.parse_**
 
 ![Alt before and after url.parse](pic/bandicam%202022-10-02%2000-58-34-341.jpg)
