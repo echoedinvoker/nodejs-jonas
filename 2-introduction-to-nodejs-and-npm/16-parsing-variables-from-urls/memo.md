@@ -18,6 +18,8 @@
 
 ![Alt terminal result](pic/bandicam%202022-10-02%2001-01-11-088.jpg)
 
+- The query is the key to extract the product data from the whole data, but now it is string type that is very inconvenient to use.
+
 ![Alt turn query to object](pic/bandicam%202022-10-02%2001-01-59-678.jpg)
 
 ![Alt object query](pic/bandicam%202022-10-02%2001-02-41-071.jpg)
