@@ -24,6 +24,8 @@
 
 ![Alt destructure object](pic/bandicam%202022-10-02%2001-16-06-517.jpg)
 
+- Another approach is to replace all "pathName" with "pathname", so that the pathname in the destructure doesn't need to have alias "pathName".
+
 ![Alt re-write product router](pic/bandicam%202022-10-02%2001-19-05-674.jpg)
 
 ![Alt reload product page again](pic/bandicam%202022-10-02%2001-19-49-561.jpg)
@@ -35,3 +37,5 @@
 ![Alt figure out problem](pic/bandicam%202022-10-02%2001-21-57-745.jpg)
 
 ![Alt fix it](pic/bandicam%202022-10-02%2001-22-32-856.jpg)
+
+- Note that **router** is used here, it has no relation to folder or file name at all.
