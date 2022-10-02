@@ -19,6 +19,10 @@
 - Development dependency only helps us when we are developing.
   - So it is not needed for production, and **the code used in production does not contain any parts about development dependencies**.
 - When installing the development dependency, you must use the **--save-dev** parameter to let npm know that we are installing the development dependency.
+- In addition to nodemon, there are many different types of development tools such as:
+  - code bundler like **Webpack**
+  - debugger tool
+  - testing library
 
 ## **Local modules**
 
