@@ -5,6 +5,8 @@
 - What happens when a client user types a URL into the browser?
 - Or what is happening in the process when we request data from an API?
 
+> In fact, the above two issues can be seen as the **same thing**.
+
 # **_Model/Archetecture_**
 
 ![Alt request server](pic/bandicam%202022-10-04%2003-18-38-851.jpg)
