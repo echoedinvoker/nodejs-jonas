@@ -1,3 +1,5 @@
+# **_SIMPLE QUESTION FROM A CLIENT USER_**
+
 ![Alt client(browser)](pic/bandicam%202022-10-04%2003-18-33-525.jpg)
 
 - What happens when a client user types a URL into the browser?
@@ -12,6 +14,8 @@
 ![Alt model/architecture](pic/bandicam%202022-10-04%2003-18-49-631.jpg)
 
 - The above is the simplest way to explain, but without any details.
+
+# **_URL AND REAL IP ADDRESS_**
 
 ![Alt url](pic/bandicam%202022-10-04%2003-18-55-688.jpg)
 
@@ -35,6 +39,8 @@
 - A **port** is like a sub-address to identify a **specific service** on target server.
   - The port has **no relation** to the resource **/map** at all.
 
+# **_CONNECTION BETWEEN CLIENT AND SERVER_**
+
 ![Alt TCP/IP](pic/bandicam%202022-10-04%2003-19-19-865.jpg)
 
 - **TCP/IP** can be thought of as a connection between a client and a server.
@@ -42,6 +48,8 @@
 - TCP/IP is a **communication protocol** that combines two protocols, **TCP** and **IP**, and defines the way data is transferred over the network.
   - **TCP** = Transmission Control Protocol
   - **IP** = Internet Protocol
+
+# **_HTTP REQUEST_**
 
 ![Alt HTTP request](pic/bandicam%202022-10-04%2003-19-25-706.jpg)
 
@@ -69,10 +77,11 @@
 
 - **request body**, for example, an **HTML form**.
 - The main difference between **HTTP** and **HTTPS** is that **HTTPS is encrypted using TLS or SSL**.
-
   - But the basic request and response logic of HTTP can also be applied to HTTPS.
-    ks
-    ![Alt HTTP response](pic/bandicam%202022-10-04%2003-19-49-734.jpg)
+
+# **_HTTP RESPONSE_**
+
+![Alt HTTP response](pic/bandicam%202022-10-04%2003-19-49-734.jpg)
 
 - After the client's request is sent to the server, the server will work until the website or API data is ready.
 - then, the **HTTP response protocol** is created to send a response from the server to the client.
@@ -96,12 +105,16 @@
 - The **body** is usually used to carry HTML, JSON data, CSS, etc. The browser is used to create web pages with the required data or files.
   - The **res.end** we used in the previous lecture is used to send the content of the body.
 
+# **_Assets for build a webpage_**
+
 ![Alt process repeated for each file](pic/bandicam%202022-10-04%2003-20-12-663.jpg)
 
 - The browser on the client side will scan the **HTML** file after the above process to know all the **assets** needed to build the page.
   - These assets include **JavaScript, CSS files, image files or other**.
   - Each asset will go through the above process to get.
     - **Multiple** requests and responses can occur **at the same time**, but there is an **upper limit** to prevent the connection from **slowing down**.
+
+# **_What really TCP/IP to do?_**
 
 ![Alt What is TCP protocol do](pic/bandicam%202022-10-04%2003-20-25-075.jpg)
 
