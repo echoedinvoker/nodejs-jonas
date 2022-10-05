@@ -48,4 +48,4 @@
 
 ![Alt result](pic/bandicam%202022-10-05%2015-14-32-616.jpg)
 
-- If the encryption is changed to sync, it will be handled in the main single thread (not background and thread pool), which will block the whole event loop, and you can find that the later phases are blocked.
+- If the encryption is changed to sync, it will be handled in the main single thread (not background and thread pool), which will block the whole event loop, and you can find that the following phases are blocked.
