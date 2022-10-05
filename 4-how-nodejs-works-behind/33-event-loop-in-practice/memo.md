@@ -4,6 +4,7 @@
   - and these three will work on the background.
     - after work finished, associate callback will put into queue of event loop.
       - only fs.readFile need consume some time to finished.
+      - Although setImmediate and setTimeout will be **completed immediately**, their associated **callbacks** still have to be executed according to the **flow: triggered by the event, placed in the queue corresponding to the phase, and waiting for the phase to arrive**.
 
 ![Alt add timeout/immeidat to reafile's callback](pic/bandicam%202022-10-05%2014-30-22-882.jpg)
 
@@ -17,8 +18,8 @@
 
 ![Alt add timeout and nested immediat to nested immediate's callback](pic/bandicam%202022-10-05%2014-55-50-774.jpg)
 
-- Although this nesting structure is already very complex, just follow the following two points to analyze it.
-  - Analyze from outer layer to inner layer one by one.
+- Although this **nesting structure** is already very complex, just follow the following two points to analyze it.
+  - Analyze from **outer layer to inner layer** one by one.
   - The callback function must follow the following procedure before it is executed:
     1. wait associated work finish
     2. put into queue
@@ -26,7 +27,7 @@
 
 ![Alt process.nextTick](pic/bandicam%202022-10-05%2015-02-01-121.jpg)
 
-- The callback of process.nextTick will be executed directly after the end of the current phase, so "Nexttick 1 finished" will definitely be printed after "Immediat 3 finished".
+- The **callback of process.nextTick** will be executed directly after the end of the **current phase**, so "Nexttick 1 finished" will definitely be printed after "Immediat 3 finished".
 
 ![Alt crypto](pic/bandicam%202022-10-05%2015-06-33-439.jpg)
 
@@ -34,8 +35,8 @@
 
 ![Alt result](pic/bandicam%202022-10-05%2015-07-48-812.jpg)
 
-- Encryption is heavy work, so the event loop will be offloaded to the thread pool to perform encryption.
-  - There are 4 threads in thread pool, so 4 encryption finished almost at the same time because they are parrelled executed.
+- **Encryption is heavy work**, so the event loop will be **offloaded** to the **thread pool** to perform encryption.
+  - There are 4 threads in thread pool, so 4 encryption finished almost at the same time because they are **parrelled** executed.
   - Do not confuse callback and encryption, heavy work is encryption not callback, so it is encryption offload to thread pool, and callback need to wait encryption finished.
 
 ![Alt only 1 in thread pool](pic/bandicam%202022-10-05%2015-09-15-007.jpg)
@@ -48,4 +49,4 @@
 
 ![Alt result](pic/bandicam%202022-10-05%2015-14-32-616.jpg)
 
-- If the encryption is changed to sync, it will be handled in the main single thread (not background and thread pool), which will block the whole event loop, and you can find that the following phases are blocked.
+- If the encryption is changed to **sync**, it will be handled in the **main single thread** (not background and thread pool), which will **block** the whole event loop, and you can find that the following phases are blocked.
