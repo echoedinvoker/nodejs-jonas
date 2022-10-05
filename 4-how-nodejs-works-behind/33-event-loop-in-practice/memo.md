@@ -17,8 +17,12 @@
 
 ![Alt add timeout and nested immediat to nested immediate's callback](pic/bandicam%202022-10-05%2014-55-50-774.jpg)
 
-- Analyze from outer layer to inner layer one by one.
-- The callback function must be dropped into the queue.
+- Although this nesting structure is already very complex, just follow the following two points to analyze it.
+  - Analyze from outer layer to inner layer one by one.
+  - The callback function must follow the following procedure before it is executed:
+    1. wait associated work finish
+    2. put into queue
+    3. wait phase coming
 
 ![Alt process.nextTick](pic/bandicam%202022-10-05%2015-02-01-121.jpg)
 
