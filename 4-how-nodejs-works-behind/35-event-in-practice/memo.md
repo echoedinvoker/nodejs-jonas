@@ -61,4 +61,4 @@
 
 ![Alt req favicon](pic/bandicam%202022-10-12%2013-29-11-664.jpg)
 
-- Because the browser will automatically more request favicon.
+- Because the browser will automatically more **request favicon**.
