@@ -40,3 +40,13 @@
 ![Alt  browser test](pic/bandicam%202022-10-13%2002-30-52-963.jpg)
 
 ![Alt  out of memory](pic/bandicam%202022-10-13%2002-31-18-458.jpg)
+
+# **_Back to second approach for error handling_**
+
+![alt](pic/bandicam%202022-10-13%2003-08-42-655.jpg)
+
+- As we mentioned in the pipe() section above, if there are more customized requirements, you cannot use pipe() directly, but must go back to the second method to write details by ourself.
+
+![alt](pic/bandicam%202022-10-13%2003-10-17-692.jpg)
+
+![alt](pic/bandicam%202022-10-13%2003-10-27-854.jpg)
