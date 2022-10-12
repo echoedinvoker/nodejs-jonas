@@ -6,6 +6,8 @@
 
 ![Alt get instance](pic/bandicam%202022-10-12%2009-35-27-245.jpg)
 
+- myEmitter is like an element of the DOM, we can set the listenser on it.
+
 ![Alt emit custom event](pic/bandicam%202022-10-12%2009-37-30-259.jpg)
 
 ![Alt set listener](pic/bandicam%202022-10-12%2009-40-56-653.jpg)
