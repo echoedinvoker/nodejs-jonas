@@ -24,6 +24,9 @@
 
 ![Alt  create class extends EventEmitter](pic/bandicam%202022-10-12%2009-54-23-500.jpg)
 
+- Usually the **EventEmitter** is not used directly, but rather create a **Class to inherit it**.
+  - There are many build-in core modules that do the same thing, such as the **http module** described below.
+
 # **_HTTP module_**
 
 > NodeJS has many **core built-in modules** with classes that **inherit from EventEmitter**, we'll use the **http module** as an example.
