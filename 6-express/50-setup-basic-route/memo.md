@@ -1,6 +1,10 @@
 # **_Initiate a Express Project_**
 
+## **Prepare files of website**
+
 ![Alt copy website files from github](pic/bandicam%202022-10-13%2015-21-45-515.jpg)
+
+- copy files about website from lecture space.
 
 ![Alt npm init](pic/bandicam%202022-10-13%2015-27-16-676.jpg)
 
