@@ -57,4 +57,4 @@
 ![Alt caching](pic/bandicam%202022-10-13%2009-03-48-508.jpg)
 
 - modules are actually **cached** after the first time they are loaded.
-  - so if you require same module multiple times, they are **\*only executed at first time**, and you will get same result every times you require.
+  - so if you require same module multiple times, they are **only executed at first time**, and you will get same result every times you require.
