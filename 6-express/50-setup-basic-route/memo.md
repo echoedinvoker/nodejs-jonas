@@ -6,13 +6,21 @@
 
 - copy files about website from lecture space.
 
+## **Init Project**
+
 ![Alt npm init](pic/bandicam%202022-10-13%2015-27-16-676.jpg)
+
+## **Install Express 4**
 
 ![Alt install express 4](pic/bandicam%202022-10-13%2015-31-06-858.jpg)
 
 # **_Create a Server_**
 
+## **Get App Object**
+
 ![Alt get express object](pic/bandicam%202022-10-13%2015-39-52-025.jpg)
+
+- require('express') will get the function, and then call this function to get the really useful object.
 
 ![Alt app.listen](pic/bandicam%202022-10-13%2015-45-03-633.jpg)
 
