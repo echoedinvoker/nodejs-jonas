@@ -1,31 +1,45 @@
-# **_Data: All Tours(simply)_**
+# **_Frame of Router for POST_**
 
-![Alt data which need to send to client](pic/bandicam%202022-10-14%2014-12-56-711.jpg)
+![Alt post router frame](pic/bandicam%202022-10-15%2003-08-28-557.jpg)
 
-- This course will first build all the API, and then deal with the dynamic rendering part.
-- The first API is about sending the data of all tours(simply) to the client.
+# **_Middleware and Request Body_**
 
-# **_Coding: Design GET Router for All Tours(simply)_**
+![Alt middleware](pic/bandicam%202022-10-15%2003-10-45-444.jpg)
 
-![Alt basic express server js template](pic/bandicam%202022-10-14%2014-14-43-128.jpg)
+![Alt req.body test](pic/bandicam%202022-10-15%2003-13-02-879.jpg)
 
-- The above is a basic architecture of a server using express, copied from the previous lecture in advanced.
+![Alt postman send post](pic/bandicam%202022-10-15%2003-17-59-624.jpg)
 
-![Alt app.get](pic/bandicam%202022-10-14%2014-18-01-971.jpg)
+![Alt get done](pic/bandicam%202022-10-15%2003-18-34-336.jpg)
 
-- We usually define the API version in the URL, so that if we need to update the API, we can use another version such as v2 to test it first without affecting the users who are still using the v1 version of the API.
+![Alt console req.body](pic/bandicam%202022-10-15%2003-20-30-235.jpg)
 
-![Alt readFileSync on top-level](pic/bandicam%202022-10-14%2014-24-09-826.jpg)
+![Alt comment middleware](pic/bandicam%202022-10-15%2003-21-51-959.jpg)
 
-- We use **synchronous** way to read the required files in **top-level**, so that it will be read as soon as the app is started, and then our app won't read it repeatedly every times request hitting.
+![Alt postman send again](pic/bandicam%202022-10-15%2003-22-40-312.jpg)
 
-![Alt construct response with JSend](pic/bandicam%202022-10-14%2014-31-48-786.jpg)
+![Alt console undefine](pic/bandicam%202022-10-15%2003-23-32-811.jpg)
 
-- Use the file read above to finish writing the **router handler** content.
-- It is important to note that we have to do the **envelope** technique instead of just throwing the contents of the file to the client.
+![Alt recover middleware](pic/bandicam%202022-10-15%2003-24-21-771.jpg)
 
-# **_Test: Send Request With Postman(or Browser)_**
+# **_Create New ID_**
 
-![Alt send request with browser](pic/bandicam%202022-10-14%2014-33-32-263.jpg)
+![Alt clear router and plan](pic/bandicam%202022-10-15%2003-29-09-499.jpg)
 
-- The course is using **Postman**, but since the API designed for this lecture is for **GET**, it is okay to use **browser**.
+![Alt create id and add into req.body](pic/bandicam%202022-10-15%2003-35-35-331.jpg)
+
+# **_Create New All Tours & Write it to File_**
+
+![Alt create new all tours and write file](pic/bandicam%202022-10-15%2003-51-49-429.jpg)
+
+![Alt JSend](pic/bandicam%202022-10-15%2004-01-24-006.jpg)
+
+![Alt postman send](pic/bandicam%202022-10-15%2004-03-41-760.jpg)
+
+![Alt check .js file](pic/bandicam%202022-10-15%2004-04-21-318.jpg)
+
+# **_The Reason GET all tours having newest Tour_**
+
+![Alt postman GET check](pic/bandicam%202022-10-15%2004-06-45-570.jpg)
+
+![Alt reason why can get new tour](pic/bandicam%202022-10-15%2004-10-01-237.jpg)
