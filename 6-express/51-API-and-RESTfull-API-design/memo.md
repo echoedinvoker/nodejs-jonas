@@ -70,18 +70,22 @@
 
 ![Alt JSent](pic/bandicam%202022-10-14%2011-34-43-408.jpg)
 
-- Usually we do not use the original JSON directly to do the transmission, usually first in the outside in a wrapping layer, the most simple and common format is JSend.
+- Usually we do not use the original JSON directly to do the transmission, usually first in the outside in a wrapping layer, the most simple and common format is **JSend**.
   - JSend has two properties:
     - **status**: Tell whether the processing was successful or unsuccessful.
     - **data**: Our original JSON data will be placed in this attribute completely.
 
 ![Alt other formats](pic/bandicam%202022-10-14%2011-34-58-021.jpg)
 
-- **stateless** means that the server does not remember the information of the **last request**.
-  - It means that all the **states** of the site are **stored on the client** side and the **server does not store any state**.
-    - **state** is the variable in the application that **changes over time**.
+- This type of wrapping is not only **JSend**, but also other types.
+- This common practice is known as the **enveloping**, which can **mitigate some security issues** and solve some other problems
 
 ![Alt state on server](pic/bandicam%202022-10-14%2011-35-20-668.jpg)
+
+- **stateless** means that the server does not remember the information of the **last request**.
+
+  - It means that all the **states** of the site are **stored on the client** side and the **server does not store any state**.
+    - **state** is the variable in the application that **changes over time**.
 
 - The above example violates the stateless principle because the server side uses the variable 'currentPage' to store the state of the application.
   - As long as the state is stored in server-side memory, it is not stateless anymore, no matter how short the storage time is.
