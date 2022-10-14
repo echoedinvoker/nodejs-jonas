@@ -21,7 +21,7 @@
 
 ![Alt logical resources](pic/bandicam%202022-10-14%2011-32-35-053.jpg)
 
-- The core of the API is the **resource**, or **noun**.
+- The core of the API is the **resource**, or **noun**, it cannot be verb.
 
 ![Alt url and endpoint](pic/bandicam%202022-10-14%2011-32-43-005.jpg)
 
