@@ -1,3 +1,5 @@
+## **Method 'patch' and all elements we want**
+
 ![Alt basic frame of patch router](pic/bandicam%202022-10-16%2004-27-43-940.jpg)
 
 - There are two ways to update, the lector prefers to use **patch** because it only needs to provide the **properties** to be updated instead of the whole object.
@@ -6,9 +8,11 @@
 
 ![Alt postman with param id and body update properties](pic/bandicam%202022-10-16%2004-03-39-958.jpg)
 
-- Here we have a property of the body that even not exist in the original tour, which is allowed if no special restrictions are placed on it.
+- Here we have a property 'update' of the body that even not exist in the original tour, which is allowed if no special restrictions are placed on it.
 
 ![Alt console result](pic/bandicam%202022-10-16%2004-03-58-484.jpg)
+
+## **Just JavaScript Show**
 
 ![Alt write updated tour directly](pic/bandicam%202022-10-16%2004-09-30-931.jpg)
 
