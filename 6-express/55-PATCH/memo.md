@@ -6,7 +6,7 @@
 
 ![Alt postman with param id and body update properties](pic/bandicam%202022-10-16%2004-03-39-958.jpg)
 
-- Here we have a part of the body that even adds **property that does not exist**, which is allowed if no special restrictions are placed on it.
+- Here we have a property of the body that even not exist in the original tour, which is allowed if no special restrictions are placed on it.
 
 ![Alt console result](pic/bandicam%202022-10-16%2004-03-58-484.jpg)
 
