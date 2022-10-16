@@ -18,11 +18,11 @@
 
 ![Alt middleware stack](pic/bandicam%202022-10-16%2012-29-15-835.jpg)
 
-- The middleware process is linear, and the whole process is called the **middleware stack**.
+- The middleware process is **linear**, and the whole process is called the **middleware stack**.
 
 ![Alt order as defined in the code](pic/bandicam%202022-10-16%2012-29-19-272.jpg)
 
-- middleware processing is linear, so there must be an order of processing, and this order is determined by the **code definition order**.
+- middleware processing is linear, so there must be an **order of processing**, and this order is determined by the **code definition order**.
 
 ![Alt req and res move to 1st middleware](pic/bandicam%202022-10-16%2012-29-27-994.jpg)
 
@@ -36,7 +36,7 @@
 
 ![Alt res.send(...)](pic/bandicam%202022-10-16%2012-29-52-352.jpg)
 
-- However, the last middleware is usually like the router we wrote before, which sends a response directly to the client, so there is no need to call the next function.
+- However, the last middleware is usually like the router we wrote before, which **sends a response** directly to the client, so there is no need to call the next function.
 
 ![Alt request-response cycle](pic/bandicam%202022-10-16%2012-29-58-906.jpg)
 
