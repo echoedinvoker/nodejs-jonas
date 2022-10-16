@@ -9,7 +9,7 @@
 ![Alt codes in middleware w/o relation to req and res](pic/bandicam%202022-10-16%2013-42-33-221.jpg)
 
 - As mentioned in the previous lecture, although the req and res objects pass through each middleware function in order, the contents of the middleware function do not necessarily have to be related to the req or res object.
-- But calling the next function is necessary, otherwise the middleware stack will get stuck unless it is the last middleware function such as router.
+- But calling the **next** function is necessary, otherwise the middleware stack will get stuck unless it is the last middleware function such as router.
 
 ![Alt send request by postman](pic/bandicam%202022-10-16%2013-43-25-679.jpg)
 
