@@ -11,6 +11,7 @@
 ![Alt everthimg is middleware](pic/bandicam%202022-10-16%2012-29-05-180.jpg)
 
 - Therefore, according to the above definition, **the router** we wrote before is **also a middleware**.
+  - The **router** will only **serve specific URLs**, however, other general **middleware** usually works on **any request** unless it is placed after the router.
 
 ![Alt e.g of each middleware](pic/bandicam%202022-10-16%2012-29-11-958.jpg)
 
