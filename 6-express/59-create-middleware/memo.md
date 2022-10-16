@@ -18,11 +18,16 @@
 
 ![Alt no msn on the console](pic/bandicam%202022-10-16%2013-48-35-772.jpg)
 
+- This is because the request-response cycle ends when the 'res.json' in the router handler 'getTours' is executed, so our custom middleware, which is defined later, will not be executed.
+
 ![Alt send another request by postman](pic/bandicam%202022-10-16%2013-49-06-792.jpg)
 
 ![Alt there is msg on the console](pic/bandicam%202022-10-16%2013-49-34-927.jpg)
 
 ![Alt middleware better write before routers](pic/bandicam%202022-10-16%2013-51-33-488.jpg)
+
+- The above process is proving that the order in which codes define the middleware function determines the order in which each middleware function is executed in the middleware stack.
+- Another important point is that the **res.json** and **res.send** methods will actually **end the request-response cycle** directly.
 
 ## **Use Middleware to add Properties to req object**
 
@@ -35,3 +40,5 @@
 ![Alt send request by postman](pic/bandicam%202022-10-16%2013-59-51-267.jpg)
 
 ![Alt timing on the console](pic/bandicam%202022-10-16%2014-00-02-218.jpg)
+
+- As above, I can design some middleware function before the routers and let the req object add some useful properties, which is a common and useful.
