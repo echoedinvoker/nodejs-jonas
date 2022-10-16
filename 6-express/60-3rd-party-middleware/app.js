@@ -1,6 +1,9 @@
+const morgan = require("morgan");
 const fs = require("fs");
 const express = require("express");
 const app = express();
+
+app.use(morgan("dev"));
 
 app.use(express.json());
 
