@@ -22,6 +22,8 @@
 
 ![Alt usefull console info](pic/bandicam%202022-10-16%2015-31-45-779.jpg)
 
+- This information is very helpful during **back-end development**.
+
 ## **Check Morgan's Source Code**
 
 ![Alt google it](pic/bandicam%202022-10-16%2015-32-28-925.jpg)
