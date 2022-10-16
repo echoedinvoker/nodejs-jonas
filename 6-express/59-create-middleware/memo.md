@@ -48,4 +48,4 @@
 
 ![Alt timing on the console](pic/bandicam%202022-10-16%2014-00-02-218.jpg)
 
-- As above, I can design some middleware function before the routers and let the req object add some useful properties, which is a common and useful.
+- As above, I can design some middleware function before the routers and **let the req object add some useful properties**, which is a common and useful.
