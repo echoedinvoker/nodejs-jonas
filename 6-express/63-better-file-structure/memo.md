@@ -1,4 +1,4 @@
-# **\*Seperate Routers Out of App**
+# **_Seperate Routers Out of App_**
 
 ![Alt create routers file](pic/bandicam%202022-10-18%2012-04-53-521.jpg)
 
@@ -62,7 +62,9 @@
 
 ![Alt import app](pic/bandicam%202022-10-18%2012-49-25-051.jpg)
 
-##
+## **Write Start Script**
+
+> Sometimes you are not sure which js file to use to start the server, to avoid this situation you can write the start command as a **script** directly.
 
 ![Alt nodemon server.js](pic/bandicam%202022-10-18%2012-50-46-034.jpg)
 
