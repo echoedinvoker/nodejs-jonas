@@ -52,13 +52,19 @@
 
 > Next, move the **router handlers** out of routers.js and into their own file.
 
+## **Seperate Router Handlers from Routers file**
+
 ![Alt create controllers](pic/bandicam%202022-10-18%2012-29-39-841.jpg)
 
 - Because the **MVC** software framework will be taught later, the handler function here will be regarded as the controller of MVC in the future, so our folder is named after it.
 
 ![Alt move from routers.js](pic/bandicam%202022-10-18%2012-31-30-727.jpg)
 
+## **Export and Import**
+
 ![Alt exports multiple func](pic/bandicam%202022-10-18%2012-34-48-654.jpg)
+
+- Because we want to export **multiple** functions, we use **exports object** instead of module.exports.
 
 ![Alt import destructure](pic/bandicam%202022-10-18%2012-44-02-565.jpg)
 
