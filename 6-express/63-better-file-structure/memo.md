@@ -1,10 +1,18 @@
 # **_Seperate Routers Out of App_**
 
+> Instead of writing routers, router handlers and other parts of the server codes in the same js file, we can put each part in a different file.
+
 ![Alt create routers file](pic/bandicam%202022-10-18%2012-04-53-521.jpg)
+
+## **Move Routers**
 
 ![Alt move routers](pic/bandicam%202022-10-18%2012-06-37-572.jpg)
 
 ![Alt require express](pic/bandicam%202022-10-18%2012-08-53-429.jpg)
+
+## **Move Router Handlers**
+
+> In order to be able to test whether each stage can run properly, it is also necessary to move the **Router Handlers** to here. After this phase of testing is successful, then move it to its own js file.
 
 ![Alt handlers](pic/bandicam%202022-10-18%2012-10-15-422.jpg)
 
@@ -16,11 +24,15 @@
 
 - By convention, we will use the variable name **'router'** here.
 
+## **Export and Import**
+
 ![Alt export routers](pic/bandicam%202022-10-18%2012-18-20-754.jpg)
 
 ![Alt import routers](pic/bandicam%202022-10-18%2012-20-17-427.jpg)
 
 - So you can find that tourRouters.js and userRouters.js are like two **small applications**, and app.js is the application that puts everything together.
+
+## **Error & Fix**
 
 ![Alt error data file not found](pic/bandicam%202022-10-18%2012-21-46-374.jpg)
 
@@ -29,6 +41,8 @@
 ![Alt fix path](pic/bandicam%202022-10-18%2012-24-03-060.jpg)
 
 - It is normal for codes to be broken during the refactor process.
+
+## **Test**
 
 ![Alt test tours](pic/bandicam%202022-10-18%2012-27-15-920.jpg)
 
