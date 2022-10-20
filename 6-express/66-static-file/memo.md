@@ -10,6 +10,9 @@
 
 ![Alt use browser get static file in our server file system](pic/bandicam%202022-10-20%2017-06-44-368.jpg)
 
+- We cannot directly enter the path to the server file system in the browser to get the static file in the server.
+- You must use **middleware** to enable the Client side to use the browser to get the server's **static file** through the **router**.
+
 ## **express.static**
 
 ![Alt express.static](pic/bandicam%202022-10-20%2017-08-44-149.jpg)
