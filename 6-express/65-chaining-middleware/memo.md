@@ -26,3 +26,5 @@
 - middleware function should be placed in Controllers.js instead of Rounters.js.
 
 ![Alt export it to routers](pic/bandicam%202022-10-20%2014-59-39-404.jpg)
+
+- Then, export it back to tourRouters.js.
