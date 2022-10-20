@@ -30,6 +30,8 @@
 
 ![Alt write param middleware in controller](pic/bandicam%202022-10-20%2009-57-29-554.jpg)
 
+- **return** is important, because if the id is invalid, the middleware stack should be stopped here, and if there is no return, **next** will be called and jump to the next middleware which make no sense.
+
 ![Alt export to tourRouters](pic/bandicam%202022-10-20%2009-58-35-021.jpg)
 
 - Some people think why not make a function to check if the id is valid and call it in each handlers.
