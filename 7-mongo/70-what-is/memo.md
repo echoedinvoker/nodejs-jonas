@@ -8,7 +8,14 @@
 
 ![Alt values are typed](pic/bandicam%202022-10-22%2007-23-50-939.jpg)
 
+- The format of mongo's document is BSON, which is very similar to JSON.
+  - The only difference is that the values of BSON are typed, whereas JSON is not.
+
 ![Alt fields](pic/bandicam%202022-10-22%2007-23-57-662.jpg)
+
+- BSON is the structure of field-value pairs.
+  - **field** is the same as the **key** in JSON
+  - Very flexible compared to the **column/row** structure of relational database.
 
 ![Alt multiple values](pic/bandicam%202022-10-22%2007-24-07-022.jpg)
 
