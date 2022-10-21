@@ -32,7 +32,7 @@
 
 ![Alt define a random env in the command](pic/bandicam%202022-10-21%2004-51-28-893.jpg)
 
-- We can write any env we want when we start the server.
+- We can define any env we want when we start the server.
   - But the name env is usually in **capital letters**, which is the convention.
 
 # **_Env File and How to Load it_**
