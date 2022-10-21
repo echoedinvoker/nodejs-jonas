@@ -59,6 +59,8 @@
 
 > In addition to the simple example of PORT above, let's try to use env for more complex operations - controlling the **middleware** and using env in **different modules**.
 
+## **Add condition with NODE_ENV to controll Middleware**
+
 ![Alt analyze 'morgan' middleware](pic/bandicam%202022-10-21%2005-26-14-489.jpg)
 
 ![Alt wrap morgan middleware with condition by NODE_ENV](pic/bandicam%202022-10-21%2005-28-53-414.jpg)
@@ -68,6 +70,8 @@
 ![Alt send request](pic/bandicam%202022-10-21%2005-32-14-973.jpg)
 
 ![Alt result morgan not work](pic/bandicam%202022-10-21%2005-33-34-552.jpg)
+
+## **Solve Problem: Importing Order**
 
 ![Alt move loading env before including app](pic/bandicam%202022-10-21%2005-35-03-003.jpg)
 
