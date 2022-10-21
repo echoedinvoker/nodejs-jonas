@@ -45,6 +45,8 @@
 
 ## **dotenv**
 
+> We need to use 3rd-party package **dotenv** to load env setting from env file to our app.
+
 ![Alt install dotenv](pic/bandicam%202022-10-21%2005-19-57-138.jpg)
 
 ![Alt load env file with dotenv](pic/bandicam%202022-10-21%2005-22-01-188.jpg)
