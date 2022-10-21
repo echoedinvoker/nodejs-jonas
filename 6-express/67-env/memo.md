@@ -15,9 +15,11 @@
 
 - process.env lists NodeJS env, which are the things that NodeJS itself uses internally when running.
 
-## **NODE_ENV**
-
 ![Alt check a common nodejs env](pic/bandicam%202022-10-21%2004-48-12-419.jpg)
+
+- Of course, we can only check single env, above example is PWD.
+
+## **NODE_ENV**
 
 ![Alt check a common nodejs env but we need to define it by ourself](pic/bandicam%202022-10-21%2004-48-48-847.jpg)
 
