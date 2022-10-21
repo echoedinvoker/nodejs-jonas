@@ -53,5 +53,7 @@
 ![Alt new project](pic/bandicam%202022-10-21%2019-54-14-874.jpg)
 
 - So in the future we don't need to type a bunch of package names when we have a new project.
-- Although theoretically it should be installed in a global way, the lecturer's test shows that if we want to achieve our requirements, we can't do it in a global way, so we have to install it project by project.
-  - The fastest way is to copy the contents of package.json.
+- Although theoretically it should be installed in a **global** way, the lecturer's test shows that if we want to achieve our requirements, we **can't** do it in a global way, so we have to **install it project by project**.
+  - The fastest way is to copy the contents of **package.json**.
+
+*
