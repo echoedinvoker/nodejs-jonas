@@ -1,5 +1,7 @@
 ![Alt basic schema](pic/bandicam%202022-10-23%2002-26-41-997.jpg)
 
+- Because it's not related to Express, we define the schema and model in **server.js**.
+  - We will move this section to a **dedicated module** in later courses.
 - The **schema** is mainly used to define the **type** of the value of each field in each of our documents.
   - So the above example is the most basic schema.
 
