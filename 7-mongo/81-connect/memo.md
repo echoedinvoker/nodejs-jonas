@@ -49,4 +49,6 @@
 
 ![Alt enter mongosh prompt](pic/bandicam%202022-10-22%2016-21-34-745.jpg)
 
+- When you just enter the prompt, you are still at the **cluster level**, you must enter the **database** and then the **collection** before you can **actually operate on the documents**.
+
 ![Alt check doc](pic/bandicam%202022-10-22%2016-30-01-580.jpg)
