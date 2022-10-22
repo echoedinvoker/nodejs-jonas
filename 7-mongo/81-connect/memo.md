@@ -30,7 +30,7 @@
 
 - As you can see from the above steps, we are connected to a **cluster**.
 - The **project** we created on the web does not exist in the above steps.
-  - You still have to create a new database and collection to import or enter documents.
+  - You still have to create a new database and collection to import or enter documents by yourself.
   - So maybe the **project** is just for us to differentiate on the website, but it doesn't actually create any database or collection.
 
 # **_Connect Using MongoDB Shell from Ubuntu_**
