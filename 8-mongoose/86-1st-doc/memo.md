@@ -33,6 +33,6 @@
 
 ![Alt edit doc again](pic/bandicam%202022-10-23%2011-24-17-003.jpg)
 
-- It can be found that in the process of generating a document, only the defined field will be generated.
-  - If you add an undefined field, there won't be any errors, it just won't exist in the document.
-  - where 'A tour must have a price' is an error message in our own definition in Schema when 'require' is failed.
+- It can be found that in the process of generating a document, **only the defined field will be generated**.
+  - If you add an **undefined field**, there won't be any errors, it just won't exist in the document.
+  - where **'A tour must have a price'** is an error message in our own definition in Schema when 'require' is failed.
