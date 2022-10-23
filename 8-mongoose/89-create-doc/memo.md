@@ -22,7 +22,7 @@
 
 ![Alt npm start](pic/bandicam%202022-10-24%2001-15-01-683.jpg)
 
-- In fact, the codes in the lecture video are problematic. I fixed them according to the final codes on github as bellow.
+- In fact, the codes in the lecture video are problematic. I fixed them according to the lecture final codes on github as bellow.
 
 ![Alt analyze tourModel.js](pic/bandicam%202022-10-24%2001-17-28-490.jpg)
 
