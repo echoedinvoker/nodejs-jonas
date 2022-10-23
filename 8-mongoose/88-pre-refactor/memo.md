@@ -43,3 +43,11 @@
 ![Alt after removing all error](pic/bandicam%202022-10-23%2021-22-31-966.jpg)
 
 - So far, we have removed all the parts of the local file system that we were getting data from and are **ready to refactor** in the next lecture.
+
+## **Plus. lecturer forgot that check body should be removed, either**
+
+> lecturer in this lecture forget to delete the part of the check body, but leave it to the next lecture, we directly delete in this lecture, more logical.
+
+![alt](pic/bandicam%202022-10-24%2000-26-44-739.jpg)
+
+![alt](pic/bandicam%202022-10-24%2000-28-43-004.jpg)
