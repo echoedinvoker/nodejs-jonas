@@ -58,3 +58,4 @@
 
 - We can check the **methods of the Model itself or its instance (document)** on the above page.
 - **prototype** is just like Array.prototype or String.prototype, it means methods under instances.
+- The subsequent lectures will introduce a lot of mongoose stuff, but there are too many mongoose things to be fully covered in the course, so if you have any needs beyond the scope of the course, you must search the official mongoose website by yourself.
