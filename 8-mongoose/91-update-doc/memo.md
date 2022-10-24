@@ -26,7 +26,7 @@
   - new: true
     - return **updated** document.
   - runValidators: true
-    - when update doc, Schemas validator will work again.
+    - when update doc, **Schemas validator** will work again.
 
 ## **fill in parameter and finish response**
 
@@ -42,7 +42,7 @@
 
 ![Alt figure out problem](pic/bandicam%202022-10-24%2015-03-41-909.jpg)
 
-- Figure out that **await** was missed because **Tour.findByIdAndUpdate** will return the promise.
+- Figure out that **await** was missed.
 
 ![Alt fix it](pic/bandicam%202022-10-24%2015-04-02-286.jpg)
 
@@ -51,3 +51,6 @@
 # **_Plus: Learn to check methods by Mongoose official documents_**
 
 ![alt](pic/bandicam%202022-10-24%2015-26-15-902.jpg)
+
+- We can check the **methods of the Model itself or its instance (document)** on the above page.
+- **prototype** is just like Array.prototype or String.prototype, it means methods under instances.
