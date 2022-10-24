@@ -2,8 +2,8 @@
 
 ![Alt analyze actual data](pic/bandicam%202022-10-24%2023-12-13-925.jpg)
 
-- We currently have only three **fields** in the **Schema**, which is not complete.
-  - We can refer to the tour data in **tours-simple.json** to know what **fields** are still missing in our **Schema**.
+- We currently have only three **fields** in the **Schema**, which is not complete yet.
+  - We can check the tour data in **tours-simple.json** to know which **fields** are still missing in our **Schema**.
 
 # **_Complete Schema Fields_**
 
@@ -16,19 +16,24 @@
 ![Alt two ratings](pic/bandicam%202022-10-24%2023-17-57-595.jpg)
 
 - The values of these two fields will be automatically generated in the future by analyzing the resource 'reviews'.
-  - For now, use option 'default' to give a fixed value.
+  - For now, just use option **'default'** with fixed values.
 
 ## **add field discount, which is not required**
 
 ![Alt discount](pic/bandicam%202022-10-24%2023-19-55-284.jpg)
 
+- Because the discount may not always be available, the option 'required' is not required.
+- Only type is defined here, so there is no need to use object.
+
 ## **add field summary/description (trim)**
 
 ![Alt trim summary and description](pic/bandicam%202022-10-24%2023-24-16-256.jpg)
 
+- The option **'trim'** is only available if the type is **String**.
+
 ![Alt add trim to name](pic/bandicam%202022-10-24%2023-25-01-113.jpg)
 
-- The option **'trim'** is only available if the type is **String**.
+- **String** type fields are usually good for using the option **'trim: true'**.
 
 ## **add fields about image (Array)**
 
@@ -58,4 +63,5 @@
 ![Alt add doc from data file by postman](pic/bandicam%202022-10-24%2023-37-36-018.jpg)
 
 - success!
-- Subsequent lectures will write code that automatically imports tours from the json file into the database.
+- Subsequent lectures will write some codes about importing tours from the json file into the database automatically.
+  - So we don't need to import all tours now.
