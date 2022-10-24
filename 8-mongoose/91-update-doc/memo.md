@@ -48,6 +48,10 @@
 
 ![Alt test again](pic/bandicam%202022-10-24%2015-06-21-382.jpg)
 
+- Because our HTTP requet verb is **PATCH**, it is a **partial update**, if it is **PUT**, you must provide the **full tour object**.
+  - If you use **PUT**, the controller must use **another method** for implementation.
+  - We do not implement **PUT**, because **PATCH** is more common in reality.
+
 # **_Plus: Learn to check methods by Mongoose official documents_**
 
 ![alt](pic/bandicam%202022-10-24%2015-26-15-902.jpg)
