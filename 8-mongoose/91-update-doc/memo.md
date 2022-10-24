@@ -6,11 +6,11 @@
 
 ![Alt modify a bit](pic/bandicam%202022-10-24%2014-48-13-518.jpg)
 
-- We now have the initial framework to handler patchTour, the most important part of the interaction with the database (comment line) in the next step of implementation.
+- We now have the **initial framework to handler patchTour**, the most important part of the interaction with the database (comment line) in the next step of implementation.
 
 ![Alt Tour.findByIdAndUpdate](pic/bandicam%202022-10-24%2014-49-43-411.jpg)
 
-- mongoose provides a very convenient method for finding by id and updating a given document in one line.
+- **mongoose** provides a very convenient method for finding by id and updating a given document **in one line**.
 
 ## **check official documents**
 
