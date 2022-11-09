@@ -45,8 +45,9 @@
 
 - Our subsequent lectures will implement functionalities other than filtering.
   - So let's divide the code into three parts as shown above in advanced.
-    - The rest of the functionalities will be done using the chain methods of **Query.prototype** at the end of the step two code in the above picture in the future.
+    - The rest of the functionalities will be done using the chain methods of **Query.prototype** at the end of the step two instruction in the above picture in the future.
+      - Remember what we just said earlier about method **find** returning objects that inherit from **Query**?
 
 ![Alt mongoose document](pic/bandicam%202022-11-09%2013-36-22-632.jpg)
 
-- You can check the official Mongoose documentation first to see what features can be implemented if you want.
+- You can check the official **Mongoose documentation** first to see what features can be implemented if you want.
