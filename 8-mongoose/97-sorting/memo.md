@@ -33,3 +33,9 @@
 ![Alt finish codes ](pic/bandicam%202022-11-10%2014-05-05-000.jpg)
 
 - Although we use **commas** instead of space in the **URL**, we still have to convert back in the codes to pass into method **sort**.
+
+## **Default Sort Way**
+
+![Alt](pic/bandicam%202022-11-10%2017-09-22-898.jpg)
+
+- We set a **default sorting order** it'll work when the request does not specify any sorting way, so that the data is sorted in the order of 'createdAt' ascendingly.
