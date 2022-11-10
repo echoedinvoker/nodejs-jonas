@@ -1,10 +1,16 @@
 ## **Build Pagination query**
 
+### _URL_
+
 ![Alt postman URL](pic/bandicam%202022-11-10%2022-43-51-803.jpg)
 
 - Usually the data in the database is not all responded to the user at once, so usually the API will provide two param fields, **page** and **limit**.
 
+### _Query.prototype methods skip and limit_
+
 ![Alt skip and limit](pic/bandicam%202022-11-10%2022-50-15-643.jpg)
+
+### _Finish pagination codes_
 
 ![Alt page and limit](pic/bandicam%202022-11-10%2022-54-42-503.jpg)
 
