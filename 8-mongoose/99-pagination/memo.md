@@ -34,6 +34,8 @@
 
 ![Alt page4](pic/bandicam%202022-11-10%2023-01-52-366.jpg)
 
+- It's strange if the user selects a page with no data and the website render only blank.
+
 ## **Non-exist page response**
 
 ![Alt non exist page handling1](pic/bandicam%202022-11-10%2023-07-11-582.jpg)
