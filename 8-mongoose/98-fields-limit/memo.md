@@ -2,7 +2,7 @@
 
 ![Alt Project](pic/bandicam%202022-11-10%2017-36-52-462.jpg)
 
-- We can use Query.potype.select to select or exclude fields from reponse to client.
+- We can use **Query.potype.select** to select or exclude fields from reponse to client.
   - We call it **project**.
   - **select** and **sort** are also methods under **Query.prototype**, so the structure of this code section is very similar to the sort part, and can be simply copy paste from sort, then do some modify.
 
