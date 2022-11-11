@@ -4,6 +4,8 @@
 
 ## **MongoDB document**
 
+> Because there are so many types of operators and stages that can be used in aggregate, here's an introduction on how to look them up in the official MongoDB documentation.
+
 ![Alt google](pic/bandicam%202022-11-11%2022-22-15-590.jpg)
 
 ### _operator_
