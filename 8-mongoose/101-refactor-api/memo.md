@@ -2,17 +2,27 @@
 
 ![Alt purpose describe](pic/bandicam%202022-11-11%2014-32-25-242.jpg)
 
+- So we will write the **API features** in the **class**.
+
 ## **Basic frame of class APIFeatures**
 
 ![Alt APIFeatures class](pic/bandicam%202022-11-11%2014-45-20-511.jpg)
 
 ## **Build Methods of class APIFeatures**
 
+### _filter_
+
 ![Alt filter()](pic/bandicam%202022-11-11%2014-59-01-026.jpg)
+
+### _sort_
 
 ![Alt sort()](pic/bandicam%202022-11-11%2015-03-22-734.jpg)
 
+### _select fields_
+
 ![Alt limitFields()](pic/bandicam%202022-11-11%2015-06-32-678.jpg)
+
+### _pagination_
 
 ![Alt paginate()](pic/bandicam%202022-11-11%2015-12-24-060.jpg)
 
