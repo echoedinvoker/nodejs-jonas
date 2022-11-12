@@ -37,8 +37,8 @@
 
 ![Alt $month doc](pic/bandicam%202022-11-12%2021-34-36-356.jpg)
 
-- We want to use month for grouping, but currently we only have Date object, is there any way to extract month from Date object?
-  - When in doubt, you can directly check the official Mongo documentation, especially the operator section, because there are really many types of operators and fuctionalites.
+- We want to use **month for grouping**, but currently we only have **Date object**, is there any way to **extract** month from Date object?
+  - When in doubt, you can directly check the **official Mongo documentation**, especially the operator section, because there are really many types of operators and fuctionalites.
 
 ![Alt $group](pic/bandicam%202022-11-12%2021-37-55-415.jpg)
 
@@ -78,3 +78,9 @@
 ![Alt other stages](pic/bandicam%202022-11-12%2022-00-49-227.jpg)
 
 ![Alt final results](pic/bandicam%202022-11-12%2022-01-42-461.jpg)
+
+## **About how to study afterwards**
+
+- Some people learn directly from the official documents, but it can be very difficult to get started.
+- Our course solves the difficulty of getting started and gives some directions on how to look up official documents.
+- However, if you want to improve, you must continue to study the official documents, and after you have the foundation, studying the official documents will be a very good way to learn.
