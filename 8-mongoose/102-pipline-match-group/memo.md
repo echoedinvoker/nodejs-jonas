@@ -20,6 +20,9 @@
 
 ![Alt $match](pic/bandicam%202022-11-11%2022-32-48-476.jpg)
 
+- The above explanation is wrong, 'ratingsAverage' is one of the fields in tours.
+- $ just means whether it is a **variable** or a **string**.
+
 ## **Stage $group**
 
 ![Alt $group](pic/bandicam%202022-11-11%2022-40-05-783.jpg)
