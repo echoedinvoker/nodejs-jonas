@@ -13,6 +13,7 @@
 ![Alt virtual method](pic/bandicam%202022-11-13%2001-52-36-423.jpg)
 
 - The point of the above picture is that the **regular function** must be used so that keyword **this** represents the **document** itself.
+- The method **get** generate property of Schema's instance(document), which is actually the **getter** in JavaScript Class.
 
 ![Alt Schema's option](pic/bandicam%202022-11-13%2001-55-52-670.jpg)
 
