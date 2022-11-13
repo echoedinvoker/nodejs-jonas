@@ -1,11 +1,15 @@
 ## **Pre Save Hook(Middleware)**
 
 > Mongoose also has **middlewares** such as Express. There are **five kinds** of middleware in Mongoose, and each of them is divided into **pre and post**, and they are usually called **Hook**.
-> This lecture introduces the **document hook**.
+> This lecture introduces the **document middleware**.
 
 ![Alt 1st pre save hook](pic/bandicam%202022-11-13%2012-37-39-423.jpg)
 
+- Because this middleware works on the **document**, it is classified in **document middleware**.
+
 ![Alt post request](pic/bandicam%202022-11-13%2012-43-51-629.jpg)
+
+- The **save** event is only emitted when **.save and .create**, so we use the **POST /tours** API for testing.
 
 ![Alt console result](pic/bandicam%202022-11-13%2012-46-12-617.jpg)
 
