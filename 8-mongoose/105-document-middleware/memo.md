@@ -39,6 +39,8 @@
 ![Alt multiple pre hook and post hook](pic/bandicam%202022-11-13%2013-03-11-096.jpg)
 
 - Because **hook is actually middleware**, so of course you can have **multiple** middleware, just remember that each middleware has a **call next at the end**.
+- Although the content of **this** in the **pre save hook** is the same as the content of the **doc** in the **post save hook**, note that in the **pre save hook** there is only **this** and **no doc**, while in the **post save hook** is **reverse**.
+  - You can imagine that the document has been **put into the database**, so keyword **this** in the **post save hook** no longer present a document, so you have to copy the content to another variable **doc** to store it, which is why these differences are caused.
 
 ![Alt post request](pic/bandicam%202022-11-13%2013-03-47-614.jpg)
 
