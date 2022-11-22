@@ -6,7 +6,7 @@
 
 ![Alt ndb failed](pic/02.jpg)
 
-### _Solution_
+### _the reason I always failed with ndb_
 
 ![Alt solution](pic/03.jpg)
 
@@ -23,6 +23,8 @@
 ### _Use setTimeout to Trigger Breakpoint_
 
 ![Alt Use setTimeout to trigger breakpoint](pic/07.jpg)
+
+- We need to access chrome DevTool within 15 seconds of command execution in order to trigger the breakpoint and enter debugger mode.
 
 ![Alt freeze at breakpoint](pic/09.jpg)
 
