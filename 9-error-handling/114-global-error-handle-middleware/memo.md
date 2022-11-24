@@ -30,7 +30,7 @@
 
 - Once the error object is created and passed to the next function, as long as any value is passed to the next function, Express will determine that an error has occurred and skip all the middleware in the Middleware stack and go directly to the Global Error Handling Middleware.
 
-## Postman Testing and Future Plan\*\*
+## **Postman Testing and Future Plan**
 
 ![Alt postman test](pic/06.jpg)
 
