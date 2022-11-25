@@ -11,7 +11,7 @@
 ![Alt move catch error to higher func](pic/04.jpg)
 
 - In fact, you can find that the part setting error status code has disappeared, and the error is caught and thrown directly to the global error handling middleware.
-  - So if an error is caught, the status code will use the default value of 500.
+  - So if an error is caught, the status code will use the default value of 500 (it will be solved in the future).
 
 ![Alt use higher func](pic/05.jpg)
 
