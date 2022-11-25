@@ -10,13 +10,22 @@
 
 ![Alt move catch error to higher func](pic/04.jpg)
 
+- In fact, you can find that the part setting error status code has disappeared, and the error is caught and thrown directly to the global error handling middleware.
+  - So if an error is caught, the status code will use the default value of 500.
+
 ![Alt use higher func](pic/05.jpg)
 
 ## **Still Not Work!?**
 
+> So far it is still not working at all, for two reasons bellow.
+
 ![Alt 2 reason why not work](pic/06.jpg)
 
 ![Alt use return to solve](pic/07.jpg)
+
+### _fn problem_
+
+> There is an error in the second step at the top that causes the npm start error, simply fix it back.
 
 ![Alt npm start but error](pic/08.jpg)
 
