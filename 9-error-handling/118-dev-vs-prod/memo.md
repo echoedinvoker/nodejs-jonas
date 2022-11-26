@@ -18,6 +18,8 @@
 
 ![Alt log error for developer](pic/07.jpg)
 
+- Although npm has a logger to record error messages, in the future, if you want to put the server in the cloud, using console log is the most versatile and simple way.
+
 ## **Still Need to Mark some Errors "isOperational"**
 
 ![Alt we still need to mark 2 or 3 errors "isOperational"](pic/08.jpg)
