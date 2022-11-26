@@ -21,6 +21,8 @@
 
 ![Alt create custom error by AppError](pic/05.jpg)
 
+- So in fact we are using the original Mongoose error data directly to create a new error object out of it with AppError.
+
 ## **Bug: error.name disapper**
 
 ![Alt start app in production mode to test](pic/06.jpg)
