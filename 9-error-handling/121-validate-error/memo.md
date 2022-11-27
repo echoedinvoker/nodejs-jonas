@@ -19,8 +19,12 @@
 
 ![Alt catch validation error with "name: ValidationError"](pic/04.jpg)
 
+- Similar to the first Mongoose generated CatchError, both use the property "name" to catch the Mongoose generated error
+
 ## **Create Error by Ourself with AppError**
 
 ![Alt written contents of handleValidationErrorDB](pic/05.jpg)
+
+- Object.values will get an array, so remember to use "join" to form the array into a complete string, in order to put it into the message of the response
 
 ![Alt final test](pic/06.jpg)
