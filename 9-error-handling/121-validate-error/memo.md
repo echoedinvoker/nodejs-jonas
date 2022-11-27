@@ -2,6 +2,8 @@
 
 ![Alt run production mode directly](pic/01.jpg)
 
+- lecture is using "npm start" (development mode) to do the analysis, it seems that you can see the err information more clearly on Postman.
+
 ![Alt patch with invalid values](pic/02.jpg)
 
 ## **Try to get usefull info with console**
