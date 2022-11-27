@@ -6,9 +6,14 @@
 
 ![Alt patch with invalid values](pic/02.jpg)
 
+- Because validation error is also an error that we expect to occur, it should be an operational error.
+
 ## **Try to get usefull info with console**
 
 ![Alt try to get usefull info with console](pic/03.jpg)
+
+- Object.values takes the values underneath the object passing into it, split and regroup into an array
+- We can try here until we get the information we want.
 
 ## **Catch Validation Error with "name: ValidationError"**
 
