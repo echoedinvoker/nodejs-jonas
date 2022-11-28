@@ -4,7 +4,12 @@
 
 ## **Build Listener to 'uncaughtException'**
 
+- Similar to the previous lector, we also use a listener to globally catch the synchronous errors that occur in the entire app and handle them.
+
 ![Alt copy paste and modify to build listener for 'uncaughtException'](pic/02.jpg)
+
+- In fact, some people think that we shouldn't use this generic or global approach to catch errors at all, and that we should catch them individually with method "catch".
+  - However, the lecturer believes that this generic and global approach has its merits.
 
 ## **Order problem**
 
