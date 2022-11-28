@@ -16,7 +16,11 @@
 
 ![Alt listen rejection](pic/03.jpg)
 
+- However, the result presented by err.message in the above figure is different from that in the lecture, probably because of the version difference.
+
 ![Alt use only err.name to go head](pic/06.jpg)
+
+- Let's continue this course using only err.name.
 
 ## **Exit Server**
 
