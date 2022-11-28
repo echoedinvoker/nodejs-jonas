@@ -38,6 +38,8 @@
 
 ### _Check lecture's QA_
 
+https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/learn/lecture/15065226#questions/8728560
+
 ![Alt QA1](pic/04.jpg)
 
 ![Alt QA2](pic/05.jpg)
