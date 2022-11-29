@@ -17,6 +17,8 @@
 
 ![Alt order problem](pic/03.jpg)
 
+- So obviously, this listener should be placed at the top of server.js to make sense.
+
 ![Alt move listener to top place](pic/04.jpg)
 
 ## **Synchronous error in the middleware**
