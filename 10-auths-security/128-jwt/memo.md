@@ -18,3 +18,5 @@
 - The whole process of generating a JWT above is called **Signing**.
 
 ![Alt signing and verifying](pic/03.jpg)
+
+- The main purpose of the verification is to know if the JWT has been modified, by comparing the TEST signature with the original signature.
