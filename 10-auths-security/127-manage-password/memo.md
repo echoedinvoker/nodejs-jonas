@@ -2,6 +2,8 @@
 
 ![Alt confirm password validate](pic/01.jpg)
 
+- In the resource tour we use the method "findByIdAndUpdate" in the funtion to update the data, however, because the resource user has the need to confirm the password, it is absolutely impossible to use the same method to implement the update function.
+
 ![Alt test with Postman](pic/02.jpg)
 
 ## **Encrypt Password**
