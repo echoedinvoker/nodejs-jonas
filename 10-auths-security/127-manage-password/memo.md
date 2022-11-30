@@ -28,6 +28,8 @@
 ![Alt encrypt password, delete confirm password, next](pic/05.jpg)
 
 - confirm password is only needed during validation, pre-save-hook works after validation, so we can remove it here because we don't want to see our password exposed from this field in the database.
+- The second parameter of method "hash" represents the CPU intensity used for encryption, which by default is 10.
+  - But since the computer hardware has been upgraded a lot, it is recommended to use 12 or above, too high is not good, because the encryption time will increase a lot.
 
 ### _Test but failed_
 
