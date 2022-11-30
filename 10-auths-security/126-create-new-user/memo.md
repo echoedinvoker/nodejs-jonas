@@ -16,6 +16,7 @@
 ![Alt build router](pic/03.jpg)
 
 - authController.js function we also write in userRouters.js, Router will no longer be divided into auth and user, probably because there are fewer codes, so it will not cause confusion.
+- You can find that the router '/signup' does not follow the rules of REST, because it is not necessary here, so REST rules are not necessarily followed, especially in the authentication part.
 
 ## **Test with Postman**
 
