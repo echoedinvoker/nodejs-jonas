@@ -39,7 +39,11 @@
 
 ![Alt env:option-expire](pic/08.jpg)
 
+- Here you can fill in 30h, 15m means 30 hours, 15 minutes, if only the number is equivalent to milliseconds.
+
 ![Alt use jwt to sign a token: options](pic/09.jpg)
+
+- The backend sends the token to the client and the work is done, and then the token is stored in the cookie or local storage that is the work of the front-end.
 
 ## **Test and Debug**
 
