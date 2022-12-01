@@ -46,6 +46,7 @@
 
 ![Alt build instance method: correctPassword in the userModel.js](pic/15.jpg)
 
+- It is important to note that we write the code to compare passwords in the model, instead of controller.
 - It is also because of the "select: false" in the Schema that we cannot use "this.password" directly, so the effect of the option "select" is comprehensive and should be used with care.
 
 ![Alt use correctPassword in the authControllers.js](pic/16.jpg)
