@@ -24,11 +24,15 @@
 
 > Generally, the client will use the header to carry the JWT token for verification.
 
+### _test header with custom content_
+
 ![Alt console.log(req.header)](pic/06.jpg)
 
 ![Alt send request of custom header content](pic/07.jpg)
 
 ![Alt check console](pic/08.jpg)
+
+### _test header with carrying JWT token_
 
 ![Alt send request with JWT token](pic/09.jpg)
 
