@@ -1,5 +1,7 @@
 ## **Create Environment Variable Manually**
 
+> In the future, we will frequently switch between development and production and there are dozens of request types, with environment variable can save a lot of time.
+
 ![Alt create environment variable](pic/01.jpg)
 
 ![Alt URL](pic/02.jpg)
@@ -11,6 +13,8 @@
 ![Alt use URL](pic/04.jpg)
 
 ## **Use Postman Script to Create Environment Variable Automatically**
+
+> In the past, we had to use signup or login to get a token and then manually copy and paste it into the header of another request, but now we can use the script provided by Postman to automate the whole process.
 
 ### _Extract Token from Signup/Login_
 
