@@ -1,4 +1,4 @@
-## **JWT Verifications**
+## **Step2: JWT Verifications**
 
 ![Alt jwt.verify](pic/01.jpg)
 
