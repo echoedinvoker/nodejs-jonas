@@ -64,6 +64,7 @@
 ![Alt finish 3) of forgotPassword](pic/16.jpg)
 
 - Note that the URL is written using "req.protocol" to get http or https and "req.get('host')" to get the domain, rather than using the dead write approach.
+- Note that we are exposing the reset token to the mailbox content, which means we believe the mailbox is secure. (even though it may not be 100% safe...)
 
 ## **Error Handling**
 
