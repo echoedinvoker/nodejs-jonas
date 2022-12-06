@@ -1,4 +1,4 @@
-## Define all Steps of function "resetPassword"\*\*
+## **Define all Steps of function "resetPassword"**
 
 ![Alt define steps of function "resestPassword"](pic/01.jpg)
 
