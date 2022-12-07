@@ -24,6 +24,8 @@
 
 > Generally speaking, the solution is the same as my own, except that there is a further step to refactor sign Token codes.
 
+### _Refactor Signing Token and Response_
+
 ![Alt](pic/08.jpg)
 
 ![Alt](pic/09.jpg)
@@ -37,3 +39,7 @@
 ![Alt](pic/13.jpg)
 
 ![Alt](pic/14.jpg)
+
+### _lecturer use PATCH_
+
+- Another difference is that the lecturer uses PATCH instead of POST, but both results are the same, and both should work, because the user data we get after using findOne to modify the user information and save back is also the complete user data.
