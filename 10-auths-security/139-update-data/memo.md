@@ -37,6 +37,7 @@
 ![Alt replace .save with .findByIdAndUpdate](pic/09.jpg)
 
 - We turn on validation in the third parameter option, but the difference with .save is that although there is validation, it doesn't generate error messages like require password.
+- The first value of the option parameter "new: true" means to return the updated user data, because we need to add the updated user data to the response later.
 
 ## **Filter Request Body**
 
