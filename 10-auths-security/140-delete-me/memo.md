@@ -44,6 +44,8 @@
 
 ![Alt query middleware to filter out 'active: false' users](pic/09.jpg)
 
+- The method "find" used here is an instance method for current user documents, unlike User.find, which can change current user documents directly based on the query result.
+
 ![Alt use regular expression to replace 'find' string](pic/10.jpg)
 
 ### _Instance method of current user documents and query condition_
@@ -59,3 +61,5 @@
 ![Alt query all users again, success](pic/14.jpg)
 
 ![Alt check database, user is still exist but 'active: false'](pic/15.jpg)
+
+- You can find that although you can't query inactive users anymore, the data of these inactive users still exists in the database.
