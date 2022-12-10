@@ -11,10 +11,13 @@
 ![Alt function deleteMe](pic/02.jpg)
 
 - status code 204 means 'no content', use this code to not response any message to the client side.
+- Note that here we are using the method "findByIdAndUpdate" instead of "findByIdAndDelete", because we are not deleting the user data from the database
 
 ### _router '/deleteMe' in userRouters_
 
 ![Alt router '/deleteMe'](pic/03.jpg)
+
+- Note that the router name is wrong in the above picture, it should be '/deleteMe'.
 
 ## **Test**
 
