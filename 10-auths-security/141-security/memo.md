@@ -39,5 +39,5 @@
 
 - If HTTPS is not used for communication between server and client, anyone can listen to the contents of the conversation and steal our JWT.
 - Sensitive config data such as passwords and tokens of any kind should never be uploaded anywhere(such as Git, database, provider storage...).
-- Don't respond with a complete error to the client. Stuff like the stack trace could give the attacker some valuable insights into your system.
+- Don't response with a complete error to the client. Stuff like the stack trace could give the attacker some valuable insights into your system.
 - Other parts of this course will not be implemented, so if you are interested, you can find security courses or online materials to study by yourself.
