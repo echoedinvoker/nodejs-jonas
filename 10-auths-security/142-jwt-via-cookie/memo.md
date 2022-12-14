@@ -1,3 +1,7 @@
+# **_SEND TOKEN VIA COOKIE TO CLIENT_**
+
+> A cookie is a small piece of text that the server sends to the client. It records the server domain sent to the client, and the cookie is automatically sent back to the server each time the client requests the server in the future.
+
 ## **Review codes about token before**
 
 ![Alt refactor about send token before](pic/01.jpg)
