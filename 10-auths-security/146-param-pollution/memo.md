@@ -26,8 +26,14 @@
 
 ![Alt send request with duplicated param which should be allowed](pic/07.jpg)
 
+- Because of the middleware added to "hpp", we can find that the "duration=5" part is not working.
+
 ![Alt pass option object with 'whitelist'](pic/08.jpg)
+
+- We can use the whitelist of "hpp" to remove the effect of "hpp" on field "duration".
 
 ![Alt test it with Postman](pic/09.jpg)
 
 ![Alt add fields which should be allowed to duplicated into whitelist](pic/10.jpg)
+
+- In fact, you can write some more complex codes here to automatically add the appropriate fields to the whitelist, but for the sake of simplicity and clarity of the course, we choose the manual input approach.
