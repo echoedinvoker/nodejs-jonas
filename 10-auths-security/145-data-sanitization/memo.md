@@ -10,6 +10,8 @@
 
 ![Alt test it with Postman](pic/04.jpg)
 
+- This package will check the request body, request query string and request params.
+
 ## **Data sanitization againt XSS**
 
 > Using mongoose's Schema itself has a defensive effect against XSS, where the 'validator' package also provides the function of data sanitization can be used, but there are still some holes we can further use the third-party package 'xss-clean' to completely prevent XSS attacks.
