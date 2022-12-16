@@ -18,7 +18,7 @@
 
 ![Alt test it with Postman](pic/06.jpg)
 
-- It can be found that "hpp" will invalidate the last params other than the last one when duplicated params are found, in order to avoid errors.
+- It can be found that "hpp" will invalidate the rest params other than the last one when duplicated params are found, in order to avoid errors.
 
 ## **Whitelist of hpp**
 
