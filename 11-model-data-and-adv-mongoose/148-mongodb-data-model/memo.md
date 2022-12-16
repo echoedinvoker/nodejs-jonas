@@ -1,7 +1,7 @@
 ![Alt data... what?](pic/01.jpg)
 
 - Data modeling is the process of structuring unstructured data generated in the real world into a logical data model in a database.
-  - And we do that according to a set of criteria.
+  - And we do that according to a set of criteria bellow.
 
 ![Alt 1. types of relationships between data](pic/02.jpg)
 
