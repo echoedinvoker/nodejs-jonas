@@ -14,6 +14,7 @@
 ![Alt 3. when to embed and when to reference? a practical framework](pic/04.jpg)
 
 - The third stage above assumes that we use images to do the puzzle to guess movie, so we almost always read the image alone and have nothing to do with the movie, so even though the image is essentially part of the movie, we choose to use referencing.
+  - So deciding to use embedding or referencing requires an understanding of how we will use the data.
 
 ![Alt 4. types of referencing - child/parent](pic/05.jpg)
 
