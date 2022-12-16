@@ -21,3 +21,5 @@
 ![Alt create middleware](pic/07.jpg)
 
 ![Alt test it with Postman](pic/08.jpg)
+
+- Disable HTML syntax by converting HTML symbols to HTML entities, so that malicious codes have no effect even if they are brought into our app or database.
