@@ -18,7 +18,15 @@
 
 ## **Renew Data in the MongoDB**
 
+> Because the previous tours data we imported into MongoDB did not have the "startLocation" and "locations" fields, we had to delete the original data and use another, more detailed, tours data to import into MongoDB.
+
+### _more details, tours data_
+
 ![Alt tours data with more details](pic/03.jpg)
+
+### _delete tours data from MongoDB and import new tours data_
+
+> We wrote a script for delete or import data to MongoDB at the beginning of the course, so now you can use it directly for operations.
 
 ![Alt change tours-simple.json to tours.json](pic/04.jpg)
 
@@ -28,9 +36,17 @@
 
 ## **Check Tours Document in the MongoDB**
 
+### _startLocation and locations_
+
 ![Alt check mongoDB documents](pic/07.jpg)
 
+- Simply put, wrapping the objects in the object field into an array using middle brackets is the embedding documents definition.
+
+### _startLocation_
+
 ![Alt check mongoDB documents2](pic/08.jpg)
+
+### _locations_
 
 ![Alt check mongoDB documents3](pic/09.jpg)
 
