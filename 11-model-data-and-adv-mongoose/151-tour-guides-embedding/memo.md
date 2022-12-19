@@ -31,3 +31,9 @@
 ![Alt send request to create new tour with guide ids](pic/06.jpg)
 
 ![Alt get response with full guide's user informations](pic/07.jpg)
+
+## **How about update?**
+
+- Up to this point, only half of the embedding documents work has been done, and the update tours part is also done in a similar way, but it will not be done in this course.
+- Because, as mentioned before, if we use embedding documents, as soon as there is any change in the guide users' information, the app will have to search all tours to see if they contain the guide user, and then update the relevant tours, which is a lot of work.
+  - So instead of finishing the embedding codes, in the next section, we will use a better way of parent referencing to implement this part.
