@@ -24,6 +24,8 @@
 
 ![Alt use promises and asynchronouse again](pic/04.jpg)
 
+- The codes in the callback function are all JavaScript, and test some more complex asynchronous processing.
+
 ## **Test**
 
 ![Alt send request to create new tour with guide ids](pic/06.jpg)
