@@ -2,6 +2,8 @@
 
 ![Alt challenge](pic/01.jpg)
 
+- Jonas believes that based on the previous lectures, we should have the ability to complete the reviews model on our own.
+
 ## **My Answer**
 
 ![Alt answer by myself](pic/02.jpg)
