@@ -12,11 +12,17 @@
 
 ![Alt correct answer(basic part of model without parent referencing field)](pic/03.jpg)
 
+- The part that makes me wonder is 3. Does the absence of both "default" and "require" option properties mean that the field "rating" is dispensable?
+- The main purpose of model.js is to export the Model object, which is then generated from the Schema.
+- Although mongoose.Schema.ObjectId is a special type, the field of this type can also have some options property that a normal field has.
+
 ## **Implement parent referencing fields**
 
 > As mentioned in the theory course, in order to avoid the problem of reference infinite review growth, we use "parent" referencing, so we must define parent referencing fields in the child model.
 
 ![Alt correct answer(about referencing field)](pic/04.jpg)
+
+- Note that unlike the previous field "guides" in tours, the reference here is a single one value in field "tour" and "user", so it is not an array of objects but an object.
 
 ## **Schema options about virtuals**
 
