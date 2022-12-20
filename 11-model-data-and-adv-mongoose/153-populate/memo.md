@@ -36,3 +36,8 @@
 ![Alt written populate in the query middleware](pic/08.jpg)
 
 ![Alt query all tours again](pic/09.jpg)
+
+## **Notes about populate**
+
+- In fact, populate will make us query more than once, so be careful not to use too much populate in a large system, otherwise it may affect the performance of the app.
+- populate is one of the fundamental and important functions in mongoose, and we'll be using it a lot in future lectures.
