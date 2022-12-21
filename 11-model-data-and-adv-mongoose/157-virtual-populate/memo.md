@@ -30,7 +30,11 @@
 - It can be seen as adding a new field "reviews", whose type is "mongoose.Schema.ObjectId".
   - It will not be recorded in the database, but will only be generated when querying.
 - So we'll just use the same way to populate this field as normal referencing field.
+- We only use populate in the function that queries a single tour, not in all query functions.
+  - If you query all tours and bring in reviews, the result will be too big.
 
 ### _Test_
 
 ![Alt test](pic/04.jpg)
+
+- As you can see above, we don't have any reviews references in the tour document in the database, but we can still populate the reviews into the tour document when we query it.
