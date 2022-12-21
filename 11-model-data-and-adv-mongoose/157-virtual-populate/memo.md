@@ -29,7 +29,7 @@
 
 - It can be seen as adding a new field "reviews", whose type is "mongoose".
   - It will not be recorded in the database, but will only be generated when querying.
-- So we'll just use the same way to populate this field.
+- So we'll just use the same way to populate this field as normal referencing field.
 
 ### _Test_
 
