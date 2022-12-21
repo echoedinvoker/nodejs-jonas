@@ -27,7 +27,7 @@
 
 ![Alt populate it](pic/03.jpg)
 
-- It can be seen as adding a new field "reviews", whose type is "mongoose".
+- It can be seen as adding a new field "reviews", whose type is "mongoose.Schema.ObjectId".
   - It will not be recorded in the database, but will only be generated when querying.
 - So we'll just use the same way to populate this field as normal referencing field.
 
