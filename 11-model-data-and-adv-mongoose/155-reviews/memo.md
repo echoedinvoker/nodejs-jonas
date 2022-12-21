@@ -1,5 +1,7 @@
 ## **Challenge**
 
+> Challenge to complete create review and query all reviews url alone.
+
 ### _controller > route > url_
 
 ![Alt create reviews controller functions](pic/01.jpg)
@@ -29,3 +31,6 @@
 ## **Correct answer by lecture video**
 
 ![Alt correct answer](pic/11.jpg)
+
+- This is the only difference between me and the course answer.
+- About part of the population, course will practice it in the next lecture.
