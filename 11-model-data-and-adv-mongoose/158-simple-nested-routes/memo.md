@@ -24,6 +24,8 @@
 ![Alt allow nested routes by controller funciton](pic/05.jpg)
 
 - In the above codes, we use "if condition" to make the function work regardless of whether user or tour id is provided in req.body, so that this function can be used by different routes at the same time.
+  - POST /reviews
+  - POST /tours/:tourId/reviews
 
 ## **Postman: create new request and test**
 
