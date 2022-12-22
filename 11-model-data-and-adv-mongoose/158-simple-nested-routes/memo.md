@@ -1,10 +1,15 @@
 ## **What URL we will implement?**
 
+> Previously, we had to provide the tour and user ids in the request body when creating a review, but a better way is to let the app automatically get the current tour/user ids instead of relying on the user to provide it.
+
 ![Alt URL to create new review on tour](pic/01.jpg)
 
 ![Alt URL to get all reviews on tour](pic/02.jpg)
 
 ![Alt URL to get specific review on tour](pic/03.jpg)
+
+- For the tour id part we will use the nested routes as above to achieve it.
+- In addition to allowing the app to extract the tour id from the url, nested routes also provide a clear view of the relationships between resources.
 
 ## **Nested Routes**
 
