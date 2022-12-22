@@ -28,6 +28,8 @@ router
   .delete(protect, restrictTo('admin', 'lead-guide'), deleteTour);
 
 // POST tours/63a10fd2ef2ee223dcaff764/reviews
-router.route('/:id/reviews').post(protect, restrictTo('user'), createReview);
+router
+  .route('/:tourId/reviews')
+  .post(protect, restrictTo('user'), createReview);
 
 module.exports = router;
